@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+
+.nav {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center-align content */
+  padding: 0rem 2rem; /* Added some padding to the top and bottom for spacing */
+  margin-top: 10px;
+ 
+}
+
+.nav-left {
+  display: flex;
+  align-items: center; /* Center-align its content */
+  
+}
+
+.nav-right {
+  display: flex;
+  gap: 10px; /* Add space between the buttons */
+}
+
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+ 
+  margin-left: '20px';
+}
+
+
+.blue-button {
+  background-color: blue; /* Set the background color to blue */
+  color: white; /* Set the text color to white */
+  padding: 10px 20px; /* Add padding for better visual appearance */
+  border: none; /* Remove border if needed */
+  border-radius: 5px; /* Add rounded corners if desired */
+  cursor: pointer; /* Add cursor pointer on hover */
+}
+
+.gray-button {
+  background-color: #eeeeee; /* Set the background color to blue */
+  color: black; /* Set the text color to white */
+  padding: 10px 20px; /* Add padding for better visual appearance */
+  border: none; /* Remove border if needed */
+  border-radius: 5px; /* Add rounded corners if desired */
+  cursor: pointer; /* Add cursor pointer on hover */
+  font-weight: bold;
+}
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+ margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+margin-left: '10px';
+ 
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: white;
+}
+
+.nav li:hover {
+  background-color: #777;
+}
